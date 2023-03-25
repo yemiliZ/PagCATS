@@ -1,10 +1,17 @@
-# 🐶 DWPC1 Dog Images 2023a
-Proyecto cargador de imágenes de perros usando la api https://dog.ceo/dog-api/
+# 🎯 S02E06 Asincronia en JS Final
+Instrucciones
+En equipos de dos como máximo o de manera individual, realiza un programa que cargue una imagen aleatoria de un gato al presionar un botón. Para ello, utiliza la siguiente API pública: https://cataas.com/#/
 
-## Instrucciones
-La función `loadDogImage` requiere que se le proporcione como argumento la dirección de una API que devuelve una URL de imagen de un perro de manera aleatoria en `endPoint`. 
-Haciendo uso de esa API, obten la URL de la imagen de un perro, para ello utiliza la API fetch, Puedes leer como funciona API FETCH [aqui](https://developer.mozilla.org/en-US/docs/Web/API/fetch#credentials).
-    
-Como esta operación es asíncrona, debes envolverla en una promesa que luego debe ser devuelta por la función `loadDogImage`. El propósito de esta promesa es permitir que el código dentro de la función `getRandomDogImage` funcione correctamente.
-    
-Por lo tanto, tu tarea es codificar una promesa que garantice el correcto funcionamiento del código en la función `getRandomDogImage`.
+
+
+Restricciones:
+
+Crea una interfaz llamativa para tu aplicación.
+Utiliza solamente la sintaxis de async/await para el manejo asíncrono de la aplicación.
+La consulta debe hacerse usando fetch. Incluye alguna sentencia que te permita identificar si la respuesta fue exitosa.
+Crea un bloque try/catch que se asegure de capturar cualquier excepción que ocurra al momento de llamar alguna petición asíncrona.
+Carga el resultado en un repositorio de GitHub con un README que funcione como la portada para describir el proyecto, la materia, la institución y los integrantes del equipo.
+Carga un informe técnico del proyecto estructurado de manera profesional siguiendo el modelo IMRYD.
+TIPS
+Inspecciona la documentación de la API para ver cual es el método que mas te conviene utilizar, ya que unos endpoints devuelven imágenes y otros devuelven objetos json.
+Investiga y ve código donde realicen consultas a APIS usando fetch para que te des una idea de como se cargan.
